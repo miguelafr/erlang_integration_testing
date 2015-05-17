@@ -1,0 +1,15 @@
+* Compilar código eit:
+
+cd eit
+erlc *erl
+
+* Compilar ejemplo:
+
+cd ../examples
+erlc *erl
+
+* Ejecutar ejemplo:
+
+erl -pa ../eit
+example:test().
+example_qc:test().
